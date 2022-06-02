@@ -28,6 +28,7 @@
     .leftContainer {
         width: 50%;
         height: 92vh;
+        text-align: center;
     }
     
     .rightContainer {
@@ -35,9 +36,18 @@
         width: 50%;
         height: 92vh;
         opacity: .9;
+        color: white;
+        text-align: center;
     }
     
-    button:focus {
-        outline: 1px dotted;
-        outline: 5px auto -webkit-focus-ring-color;
+    h1 {
+        font-size: 5em;
+        font-weight: bold;
+        color: #69263C;
+    }
+    
+    h1.coder {
+        font-size: 5em;
+        font-weight: bold;
+        color: #ffffff;
     }
