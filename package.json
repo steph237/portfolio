@@ -2,7 +2,7 @@
     "name": "my-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://steph237.github.io/react-gh-pages",
+    "homepage": "https://steph237.github.io",
 
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.1.1",
