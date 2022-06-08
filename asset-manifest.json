@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9618c7f.css",
-    "main.js": "/static/js/main.a4b996fb.js",
-    "static/media/steph.png": "/static/media/steph.4d4addb0e5105224fa50.png",
-    "index.html": "/index.html",
-    "main.c9618c7f.css.map": "/static/css/main.c9618c7f.css.map",
-    "main.a4b996fb.js.map": "/static/js/main.a4b996fb.js.map"
+    "main.css": "/steph237.github.io/static/css/main.c9618c7f.css",
+    "main.js": "/steph237.github.io/static/js/main.85c45779.js",
+    "static/media/steph.png": "/steph237.github.io/static/media/steph.4d4addb0e5105224fa50.png",
+    "index.html": "/steph237.github.io/index.html",
+    "main.c9618c7f.css.map": "/steph237.github.io/static/css/main.c9618c7f.css.map",
+    "main.85c45779.js.map": "/steph237.github.io/static/js/main.85c45779.js.map"
   },
   "entrypoints": [
     "static/css/main.c9618c7f.css",
-    "static/js/main.a4b996fb.js"
+    "static/js/main.85c45779.js"
   ]
 }
