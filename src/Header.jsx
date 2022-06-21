@@ -1,16 +1,16 @@
 import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Disclosure, } from "@headlessui/react";
+import {  MenuIcon, XIcon } from "@heroicons/react/outline";
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faCoffee} from '@fortawesome/free-solid-svg-icons';
+
 import {faLinkedin, faInstagram, faFacebook} from '@fortawesome/free-brands-svg-icons';
 
  
 const navigation = [
  
   { name: "Portfolio", href: "#", current: false },
-  { name: "About", href: "#", current: true},
+  { name: "About", href: "#", current: false},
   { name: "Contact", href: "#", current: false },
   
 ];

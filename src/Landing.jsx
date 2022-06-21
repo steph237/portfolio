@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
 import Steph from "./steph.png";
 import "./index.css";
+import Portfoliocard from "./components/Portfoliocard/Portfolio";
 
 const Landing = () => {
   return (
@@ -77,6 +78,14 @@ const Landing = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div class= "mt-8 p-1">
+        <h2 class="text-3xl text-center"> Latest work </h2>
+       
+          
+            <Portfoliocard/>
+          
+        
       </div>
     </div>
   );
