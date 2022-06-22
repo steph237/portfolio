@@ -82,12 +82,10 @@ h3 {
 .card :hover div:nth-of-type(2) {
   opacity: 1;
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 400px) {
   .card-container {
-    width: 100%;
-    margin: 0;
-  }
-  .card {
-    margin-bottom: 1.5rem;
+    width: "100%";
+    margin: 1rem;
   }
 }
