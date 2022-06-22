@@ -2,6 +2,7 @@
 import Steph from "./steph.png";
 import "./index.css";
 import Portfoliocard from "./components/Portfoliocard/Portfolio";
+import Footer from "./components/Footer/Footer";
 
 const Landing = () => {
   return (
@@ -12,7 +13,7 @@ const Landing = () => {
       <div className=" flex ">
         <div className="leftContainer flex flex-col place-content-center">
           <div className="pb-2">
-            <h1>Design</h1>
+            <h1 className="design">Design</h1>
           </div>
           <div className="pb-4">
             <span>
@@ -20,7 +21,7 @@ const Landing = () => {
             </span>
           </div>
           <div>
-            <div class="flex space-x-2 justify-center">
+            <div className="flex space-x-2 justify-center">
               <button
                 type="button"
                 class="inline-block 
@@ -50,11 +51,12 @@ const Landing = () => {
           </div>
           <div className="pb-4">
             <span>
-            Front end developer enthusiastic about <br/> writing clean and efficient code
+              Front end developer enthusiastic about <br /> writing clean and
+              efficient code
             </span>
           </div>
           <div>
-            <div class="flex space-x-2 justify-center">
+            <div className="flex space-x-2 justify-center">
               <button
                 type="button"
                 class="inline-block 
@@ -79,14 +81,17 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div class= "mt-8 p-1">
-        <h2 class="text-3xl text-center"> Latest work </h2>
-       
-          
-            <Portfoliocard/>
-          
-        
+      <div className="m-10">
+        <div className="mb-10">
+          {" "}
+          <h2 className="text-3xl text-center"> Latest work </h2>
+        </div>
+
+        <div>
+          <Portfoliocard />
+        </div>
       </div>
+      <Footer />
     </div>
   );
 };

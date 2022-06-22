@@ -3,44 +3,39 @@ import "./portfoliocard.css";
 
 const Portfoliocard = () => {
   return (
-    <div class="card-container flex space-x-8 ">
-     
+    <div className="card-container flex space-x-10 content-center">
       <div className="card">
         <div>
-          <p></p>
+          <img src="https://source.unsplash.com/WLUHO9A_xik/1600x900"></img>
         </div>
-        <div></div>
 
         <div>
-          <span></span>
-          <h3> </h3>
+          <span>design</span>
+          <h3> food delivery application</h3>
         </div>
       </div>
 
       <div className="card">
         <div>
-          <p></p>
+          <img src="https://source.unsplash.com/WLUHO9A_xik/1600x900"></img>
         </div>
-        <div></div>
 
         <div>
-          <span></span>
-          <h3> </h3>
+          <span>design</span>
+          <h3> food delivery application</h3>
         </div>
       </div>
 
       <div className="card">
         <div>
-          <p></p>
+          <img src="https://source.unsplash.com/WLUHO9A_xik/1600x900"></img>
         </div>
-        <div></div>
 
         <div>
-          <span></span>
-          <h3> </h3>
+          <span>design</span>
+          <h3> food delivery application</h3>
         </div>
       </div>
-
     </div>
   );
 };
