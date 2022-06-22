@@ -73,7 +73,7 @@ h1.coder {
   .rightContainer {
     width: auto;
     height: auto;
-
+    opacity: 1;
     padding-bottom: 2rem;
   }
   .leftContainer {
