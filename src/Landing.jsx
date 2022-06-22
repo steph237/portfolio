@@ -10,7 +10,7 @@ const Landing = () => {
       <div className="backgroundDiv">
         <img src={Steph} alt="background" className="center" />
       </div>
-      <div className=" flex ">
+      <div className=" main-container flex   ">
         <div className="leftContainer flex flex-col place-content-center">
           <div className="pb-2">
             <h1 className="design">Design</h1>

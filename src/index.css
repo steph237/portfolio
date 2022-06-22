@@ -10,6 +10,8 @@
 body {
   font-family: var(--font-roboto);
 }
+.main-container {
+}
 
 .center {
   max-width: 100%;
@@ -58,4 +60,35 @@ h1.coder {
   font-size: 5em;
   font-weight: bold;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+  .backgroundDiv {
+    display: none;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+
+  .rightContainer {
+    width: auto;
+    height: auto;
+
+    padding-bottom: 2rem;
+  }
+  .leftContainer {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1.design {
+    font-size: 3em;
+  }
+
+  h1.coder {
+    font-size: 3em;
+  }
 }
