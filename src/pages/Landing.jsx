@@ -2,7 +2,6 @@
 import Steph from "../steph.png";
 import "../index.css";
 import Portfoliocard from "../components/Portfoliocard/Portfolio";
-import Footer from "../components/Footer/Footer";
 
 const Landing = () => {
   return (
@@ -91,7 +90,6 @@ const Landing = () => {
           <Portfoliocard />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
