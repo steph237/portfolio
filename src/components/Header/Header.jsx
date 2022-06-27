@@ -1,24 +1,25 @@
 import { Fragment } from "react";
-import { Disclosure, } from "@headlessui/react";
-import {  MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Disclosure } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import {faLinkedin, faInstagram, faFacebook} from '@fortawesome/free-brands-svg-icons';
+import {
+  faLinkedin,
+  faInstagram,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
- 
 const navigation = [
- 
-  { name: "Portfolio", href: "#", current: false },
-  { name: "About", href: "#", current: false},
-  { name: "Contact", href: "#", current: false },
-  
+  { name: "Portfolio", href: "/Portfolio", current: false },
+  { name: "About", href: "/About", current: false },
+  { name: "Contact", href: "/Contact", current: false },
 ];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
-
 
 export default function Navbar() {
   return (
@@ -40,8 +41,9 @@ export default function Navbar() {
               </div>
               <div className="headerContent  ">
                 <div className="flex-shrink-0 flex items-center sm:ml-6">
-                 <p className="text-2xl ml-6  ">MD</p>
-               
+                  <Link to="/">
+                    <p className="text-2xl ml-6  ">MD</p>
+                  </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6 mr-0">
                   <div className=" flex space-x-9">
@@ -60,18 +62,26 @@ export default function Navbar() {
                         {item.name}
                       </a>
                     ))}
-                  </div>      
+                  </div>
                 </div>
-                <div className=" 
-                flex text-gray-600 space-x-9 mt-2 hidden md:block">
-                
-                <FontAwesomeIcon icon = {faLinkedin} className = "hover:text-red-800 hover:scale-110"></FontAwesomeIcon>
-                <FontAwesomeIcon icon = {faInstagram} className = "hover:text-red-800 hover:scale-110"></FontAwesomeIcon>
-                <FontAwesomeIcon icon = {faFacebook} className = "hover:text-red-800 hover:scale-110"></FontAwesomeIcon>
-                 
+                <div
+                  className=" 
+                flex text-gray-600 space-x-9 mt-2 hidden md:block"
+                >
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="hover:text-red-800 hover:scale-110"
+                  ></FontAwesomeIcon>
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="hover:text-red-800 hover:scale-110"
+                  ></FontAwesomeIcon>
+                  <FontAwesomeIcon
+                    icon={faFacebook}
+                    className="hover:text-red-800 hover:scale-110"
+                  ></FontAwesomeIcon>
                 </div>
               </div>
-              
             </div>
           </div>
 

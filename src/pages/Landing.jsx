@@ -1,8 +1,8 @@
 // import React, { useState, useEffect } from "react";
-import Steph from "./steph.png";
-import "./index.css";
-import Portfoliocard from "./components/Portfoliocard/Portfolio";
-import Footer from "./components/Footer/Footer";
+import Steph from "../steph.png";
+import "../index.css";
+import Portfoliocard from "../components/Portfoliocard/Portfolio";
+import Footer from "../components/Footer/Footer";
 
 const Landing = () => {
   return (
