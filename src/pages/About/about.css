@@ -1,0 +1,17 @@
+.about {
+  display: flex;
+  width: 60%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin: auto;
+  justify-content: flex-start;
+
+  flex-wrap: wrap;
+}
+.about-info {
+  width: 50%;
+  display: block;
+}
+img {
+  width: 70%;
+}
