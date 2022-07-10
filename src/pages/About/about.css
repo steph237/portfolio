@@ -1,17 +1,56 @@
 .about {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  margin: auto;
+}
+.about-content {
   display: flex;
-  width: 60%;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin: auto;
   justify-content: flex-start;
-
   flex-wrap: wrap;
+  width: 60%;
 }
 .about-info {
   width: 50%;
   display: block;
 }
-img {
+img.image {
   width: 70%;
+  margin-left: auto;
+}
+h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #69263c;
+}
+h2 {
+  font-size: 1.6rem;
+}
+
+.data-pie {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  justify-content: space-between;
+}
+.part-designer,
+.part-developer {
+  font-size: 1.3em;
+}
+h3 {
+  font-weight: bold;
+}
+.piechart {
+  flex-grow: 0;
+  flex-shrink: 0;
+  position: absolute;
+  margin-top: -3%;
+  left: 50%;
+  transform: translate(-50%, -8%);
+  z-index: -1;
 }
