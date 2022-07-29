@@ -12,7 +12,7 @@ import {
 import { Link } from "react-router-dom";
 
 const navigation = [
-  { name: "Portfolio", href: "/portfolio", current: false },
+  { name: "Portfolio", href: "/Portfolio", current: false },
   { name: "About", href: "/About", current: false },
   { name: "Contact", href: "/Contact", current: false },
 ];

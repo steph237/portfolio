@@ -1,5 +1,4 @@
 import React from "react";
-import Dropdown from "../../components/Dropdown";
 import "../About/about.css";
 import { useState } from "react";
 import "./portfolio.css";
@@ -44,7 +43,8 @@ const Portfolio = () => {
         </div>
       </div>
       <Portfoliocard />
-      <hr size="20" align="center" />
+      <Portfoliocard />
+      <Portfoliocard />
     </div>
   );
 };

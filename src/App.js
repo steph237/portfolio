@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Landing from "./pages/Landing";
@@ -15,21 +20,11 @@ const App = () => {
       <div className="app">
         <Header />
         <Switch>
-          <Route exact path="/">
-            <Landing />
-          </Route>
-
-          <Route path="/About">
-            <About />
-          </Route>
-
-          <Route exact path="/portfolio">
-            <Portfolio />
-          </Route>
-
-          <Route path="/Contact">
-            <Contact />
-          </Route>
+          <Route path="/" exact component={Landing} />
+          <Route path="/About" component={About} />
+          <Route path="/Portfolio" component={Portfolio} />
+          <Route path="/Contact" component={Contact} />
+          <Redirect to="/" />
         </Switch>
         <Footer />
       </div>
